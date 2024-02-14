@@ -56,7 +56,10 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .hr_custom_fade{
-    @apply  h-px border-t-0 bg-transparent bg-gradient-to-r  from-slate-300 to-transparent opacity-25 dark:opacity-100;
+    @apply  h-px border-t-0 bg-transparent bg-gradient-to-r  from-slate-300 opacity-25 dark:opacity-100;
+  }
+  .hr_custom_fade_footer{
+    @apply  h-px border-t-0 bg-transparent bg-gradient-to-r  from-transparent via-slate-300 opacity-25 dark:opacity-100;
   }
 
   .footer {
